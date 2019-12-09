@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+     position: fixed; 
+    width: 100%;
+    height: 60px;
+    background-color: #5c8188;
+}
+
+#navlist {
+    display: flex;
+    list-style-type: none;
+    width: 300px;
+    justify-content: space-around;
+}
+
+#navlist a {
+    text-decoration: none;
+    color: #ddd;
+}
+
+#navlist a:hover {
+    background: #5c8188;
+}
+
+li {
+    font-size: 1.75rem;
+    color:#ddd;
+}
+
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* background-color: #334a4e; */
+    background-color: lightgray;
+    color: #334a4e;
+}
+#projects {
+    
+    display: flex;
+    flex-direction: column; 
+   
+    padding: 2rem;
+    background-color: #2a4146;
+}
+.projects-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    text-align: center;
+    color: #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-1 {
+    margin-right: 30px;
+}
+
+.project-2 {
+    margin-right: 30px;
+}
+
+
+#projects img {
+    width: 400px;
+    
+}
+
+.title {
+    background-color: #526a6e;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+h4{
+
+    text-align: center;
+
+}
+
+h4 a {
+    color: lightcoral;
+    text-decoration: none;
+
+}
+
+h4 a:hover {
+    color: #1e2b2e;
+}
+
+div a img {
+    width: 80%; 
+}
+
+.films img {
+    width: 40%;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background-color: lightgray;
+    color: #334a4e;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 2rem;  
+    
+}
+
+#profile-link {
+    color: lightcoral;
+    background-color: #334a4e;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#profile-link:hover {
+    color: #5c8188;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #5c8188;
+    color: #ddd;
+}
